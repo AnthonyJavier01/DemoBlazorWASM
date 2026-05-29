@@ -1,0 +1,89 @@
+﻿@page "/authentication/{action}"
+@layout EmptyLayout
+@inject IJSRuntime _js
+@inject ILogger<Authentication> Logger
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+
+@if (Action == "logged-out")
+{
+    Navigation.NavigateTo("/");
+}
+else
+{
+    <RemoteAuthenticatorView Action="@Action" LogInFailed="LogInFailedFragment" OnLogInSucceeded="OnLogInSucceded" OnLogOutSucceeded="OnLogOutSucceded" />
+
+}
+
+
+@code {
+    [Parameter] public string? Action { get; set; }
+    private string? authMessage;
+    private string? surname;
+    private IEnumerable<System.Security.Claims.Claim> claims = Enumerable.Empty<System.Security.Claims.Claim>();
+
+
+    private async Task OnLogInSucceded()
+    {
+        var authstate = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authstate.User;
+
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            authMessage = $"{user.Identity.Name} is authenticated.";
+            claims = user.Claims;
+            surname = user.FindFirst(c => c.Type == System.Security.Claims.ClaimTypes.Surname)?.Value;
+
+            await _js.InvokeVoidAsync("sessionStorage.setItem", "loginInfo", System.Text.Json.JsonSerializer.Serialize(new
+            {
+                surname = surname,
+                AuthMessage = authMessage,
+                Claims = claims.Select(c => new { c.Type, c.Value })
+
+            }));
+        }
+        else
+        {
+
+            authMessage = "The user is NOT authenticated";
+        }
+
+        Logger.LogInformation(authMessage);
+         
+
+
+    }
+
+    private async Task OnLogOutSucceded()
+    {
+        await _js.InvokeAsync<string>("sessionStorage.removeItem", "loginInfo");
+        Logger.LogInformation("OnLogOutSucceded");
+
+    }
+
+    private static RenderFragment LogInFailedFragment(string message)
+    {
+        return builder =>
+        {
+            builder.OpenElement(0, "div");
+            builder.AddAttribute(1, "class", "alert alert-danger");
+            builder.AddAttribute(2, "role", "alert");
+            builder.OpenElement(3, "p");
+            builder.AddAttribute(4, "class", "primary-800");
+            builder.AddContent(5, "There was an error trying to log you in.");
+            builder.CloseElement();
+            if (!string.IsNullOrEmpty(message))
+            {
+                builder.OpenElement(6, "p");
+                builder.AddAttribute(7, "class", "primary-800");
+                builder.AddContent(8, $"Error:{message}");
+                builder.CloseElement();
+            }
+            builder.CloseElement();
+
+        };
+    } 
+
+
+
+}

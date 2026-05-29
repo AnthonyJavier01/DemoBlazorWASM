@@ -1,0 +1,4 @@
+C:\Users\abuenoca\OneDrive - NTT DATA EMEAL\Documents\Proyectos Blazor\BlazorApp1\obj\Release\net10.0\browser-wasm\PubTmp\Out\wwwroot\index.html
+C:\Users\abuenoca\OneDrive - NTT DATA EMEAL\Documents\Proyectos Blazor\BlazorApp1\obj\Release\net10.0\browser-wasm\PubTmp\Out\BlazorApp1.runtimeconfig.json
+C:\Users\abuenoca\OneDrive - NTT DATA EMEAL\Documents\Proyectos Blazor\BlazorApp1\obj\Release\net10.0\browser-wasm\PubTmp\Out\dotnet.js
+C:\Users\abuenoca\OneDrive - NTT DATA EMEAL\Documents\Proyectos Blazor\BlazorApp1\obj\Release\net10.0\browser-wasm\PubTmp\Out\web.config

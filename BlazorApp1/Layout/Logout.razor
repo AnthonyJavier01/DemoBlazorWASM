@@ -1,0 +1,103 @@
+﻿@using System.Security.Claims
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@layout EmptyLayout
+
+
+<AuthorizeView Context="authContext">
+
+    @if (authContext?.User?.Identity?.IsAuthenticated == true)
+    {
+        @*<FluentButton @onclick="Beginlogout" IconStart="@(new Icons.Regular.Size16.Globe())">
+           @authContext?.User?.Identity?.Name
+        </FluentButton>*@
+        
+   
+
+        <FluentProfileMenu Status="@PresenceStatus.Available"
+                           HeaderLabel="Microsoft"
+                           Image="@(authContext.User.FindFirst("user_photo_dataurl")?.Value??"")"
+                           FullName="@authContext?.User?.Identity?.Name"
+                           EMail="@GetUserEmail(authContext?.User)"
+                           PopoverStyle="min-width: 200px;"
+                           FooterLink="@ObtenerRoles(authContext?.User)"
+                           OnHeaderButtonClick="Beginlogout"
+
+                  Style="--fluent-profile-menu-hover: var(--neutral-stroke-focus); padding: 4px;">
+        <StartTemplate>
+                @authContext?.User?.Identity?.Name
+        </StartTemplate>
+            @*<ChildContent>
+                <div style="width: 250px; height: 80px">
+                    <FluentLabel>@Typography.Header">@ObtenerRoles(authContext?.User)</FluentLabel>
+                </div>
+            </ChildContent>*@
+                               
+            </FluentProfileMenu >
+
+
+    }
+    else
+    {
+        <FluentButton @onclick="Beginlogin" IconStart="@(new Icons.Regular.Size16.Globe())">
+            Login
+        </FluentButton>
+    }
+
+</AuthorizeView>
+
+@code {
+    private string GetInitials(string? fullName)
+    {
+        if (string.IsNullOrWhiteSpace(fullName))
+            return "";
+
+        return string.Concat(
+            fullName
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Take(2)
+                .Select(x => char.ToUpper(x[0]))
+        );
+    }
+
+    private string GetUserEmail(ClaimsPrincipal? user)
+    {
+        var email = user?.FindFirst("emails")?.Value;
+        if (string.IsNullOrWhiteSpace(email))
+        {
+            email = user?.FindFirst("preferred_username")?.Value;
+        }
+
+        return email ?? string.Empty;
+    }
+
+    private string ObtenerRoles(ClaimsPrincipal? user)
+    {
+        if (user == null || !user.Identity!.IsAuthenticated)
+            return string.Empty;
+
+        var roles = user.Claims
+            .Where(c =>
+                c.Type == ClaimTypes.Role ||
+                c.Type == "roles" ||
+                c.Type == "role" ||
+                c.Type == "AppRole")
+            .Select(c => c.Value)
+            .Distinct()
+            .ToList();
+
+        return roles.Any()
+            ? string.Join(" - ", roles)
+            : string.Empty;
+    }
+
+    private void Beginlogout()
+    {
+        Navigation.NavigateToLogout("authentication/logout");
+    }
+
+    private void Beginlogin(MouseEventArgs args)
+    {
+        Navigation.NavigateToLogin("authentication/login");
+    }
+}

@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\wwwroot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:wwwroot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\authentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\authentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\commons\\claimconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:commons\\claimconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\unauthorized.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\unauthorized.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\commons\\authentication\\graphuseraccountfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:commons\\authentication\\graphuseraccountfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\commons\\authentication\\graphhttpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:commons\\authentication\\graphhttpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|c:\\users\\abuenoca\\onedrive - ntt data emeal\\documents\\proyectos blazor\\blazorapp1\\layout\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BA0810-CF63-BACD-9969-F34D5336499D}|BlazorApp1.csproj|solutionrelative:layout\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-27T19:58:06.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "wwwroot\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\appsettings.Development.json",
+              "RelativeToolTip": "wwwroot\\appsettings.Development.json",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-27T19:57:55.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Logout.razor",
+              "RelativeDocumentMoniker": "Layout\\Logout.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Logout.razor",
+              "RelativeToolTip": "Layout\\Logout.razor",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:12:27.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T20:43:20.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:26:28.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Authentication.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Authentication.razor",
+              "RelativeDocumentMoniker": "Layout\\Authentication.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Authentication.razor",
+              "RelativeToolTip": "Layout\\Authentication.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T23:23:55.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T16:32:33.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClaimConstants.cs",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\ClaimConstants.cs",
+              "RelativeDocumentMoniker": "Commons\\ClaimConstants.cs",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\ClaimConstants.cs",
+              "RelativeToolTip": "Commons\\ClaimConstants.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T16:24:30.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T22:16:00.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Unauthorized.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Unauthorized.razor",
+              "RelativeDocumentMoniker": "Layout\\Unauthorized.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Unauthorized.razor",
+              "RelativeToolTip": "Layout\\Unauthorized.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T22:52:05.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Unauthorized.razor.css",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Unauthorized.razor.css",
+              "RelativeDocumentMoniker": "Layout\\Unauthorized.razor.css",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\Unauthorized.razor.css",
+              "RelativeToolTip": "Layout\\Unauthorized.razor.css",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T22:52:28.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T23:11:58.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\NotFound.razor",
+              "RelativeDocumentMoniker": "Layout\\NotFound.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\NotFound.razor",
+              "RelativeToolTip": "Layout\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T21:59:10.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-19T22:28:53.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T18:14:21.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T22:57:57.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GraphUserAccountFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\Authentication\\GraphUserAccountFactory.cs",
+              "RelativeDocumentMoniker": "Commons\\Authentication\\GraphUserAccountFactory.cs",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\Authentication\\GraphUserAccountFactory.cs",
+              "RelativeToolTip": "Commons\\Authentication\\GraphUserAccountFactory.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAewJAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T16:40:24.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Pages\\Weather.razor",
+              "RelativeToolTip": "Pages\\Weather.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T16:33:31.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T15:28:46.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GraphHttpClientService.cs",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\Authentication\\GraphHttpClientService.cs",
+              "RelativeDocumentMoniker": "Commons\\Authentication\\GraphHttpClientService.cs",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Commons\\Authentication\\GraphHttpClientService.cs",
+              "RelativeToolTip": "Commons\\Authentication\\GraphHttpClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T22:53:42.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "Layout\\RedirectToLogin.razor",
+              "ToolTip": "C:\\Users\\abuenoca\\OneDrive - NTT DATA EMEAL\\Documents\\Proyectos Blazor\\BlazorApp1\\Layout\\RedirectToLogin.razor",
+              "RelativeToolTip": "Layout\\RedirectToLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T19:23:52.366Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

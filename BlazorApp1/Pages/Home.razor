@@ -1,0 +1,17 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<FluentLabel Style="align-content:center" Typo="Typography.H5">👋 Welcome ! </FluentLabel>
+
+<AuthorizeView Context="authContext">
+    <Authorized>
+        @*<pre>
+@foreach (var claim in authContext.User.Claims)
+{
+@($"{claim.Type}: {claim.Value}\n")
+}
+        </pre>*@
+    </Authorized>
+</AuthorizeView>
+

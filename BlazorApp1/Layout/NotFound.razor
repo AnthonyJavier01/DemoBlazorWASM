@@ -1,0 +1,39 @@
+﻿@page "/not-found"
+@layout EmptyLayout
+@inject NavigationManager NavigationManager
+
+
+<div class="notfound-page">
+
+    <div class="container-404">
+
+        <div class="image-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/2748/2748558.png"
+                 alt="404 Not Found">
+        </div>
+
+        <div class="content-section">
+
+            <div class="error-code">
+                404
+            </div>
+
+            <div class="title">
+                Página no encontrada
+            </div>
+
+            <div class="description">
+                Lo sentimos, la página que estás buscando no existe,
+                fue movida o eliminada.
+            </div>
+
+            <FluentButton @onclick='() => NavigationManager.NavigateTo("/")' IconEnd="@(new Icons.Regular.Size16.Globe())"
+                          Appearance="Appearance.Accent">
+                Inicio
+            </FluentButton>
+
+        </div>
+
+    </div>
+
+</div>

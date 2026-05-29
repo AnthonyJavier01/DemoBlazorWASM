@@ -1,0 +1,29 @@
+﻿@inject NavigationManager Navigation
+@layout EmptyLayout
+
+
+
+<main class="main-container">
+        <div class="login-container">
+    <FluentLabel Style="align-content:center" Typo="Typography.H5"> Autenticación de Blazon Web Assembly con Microsoft Entra Id </FluentLabel>
+        
+    <img src="images/blazor2.jpg"
+             alt="Microsoft Logo"
+             class="microsoft-logo" />
+
+        <FluentButton  @onclick="OnLogin" IconStart="@(new Icons.Regular.Size16.Globe())">
+            Iniciar sesión con Microsoft
+        </FluentButton>
+    </div>
+    </main>
+    
+
+
+@code {
+
+    private void OnLogin()
+    {
+        Navigation.NavigateTo("authentication/login");
+    }
+
+}
